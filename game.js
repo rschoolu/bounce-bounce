@@ -4,11 +4,11 @@ function getRandomArbitrary(min, max) {
   }
 canvas.style = "border: 1px solid black;"
 const ctx = canvas.getContext('2d')
-let target_min = getRandomArbitrary(-60, 0);
+let target_min = getRandomArbitrary(-120, 10);
 let score = 0;
-let target_max = getRandomArbitrary(0, 60);
+let target_max = getRandomArbitrary(40, 120);
 let center_point = target_max + target_min;
-let track_width = getRandomArbitrary(150, 750);
+let track_width = getRandomArbitrary(260, 750);
 let time_since_last_game = 0;
 let slider_x = track_width - 20;
 let slider_increment = 2;
