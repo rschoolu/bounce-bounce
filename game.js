@@ -13,6 +13,7 @@ let time_since_last_game = 0;
 let slider_x = track_width - 20;
 let slider_increment = 2;
 function regen() {
+    slider_increment = 2
     target_min = getRandomArbitrary(-60, 0);
     target_max = getRandomArbitrary(0, 60);
     track_width = getRandomArbitrary(150, 750);
